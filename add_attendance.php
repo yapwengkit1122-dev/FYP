@@ -2,7 +2,7 @@
 session_start();
 $isAdmin = isset($_SESSION['role']) && $_SESSION['role'] === 'admin';
 
-$conn = new mysqli("localhost", "root", "pwd123", "attendance_system");
+$conn = new mysqli("localhost", "abc", "abc", "attendance_system");
 if ($conn->connect_error) die("Connection failed: " . $conn->connect_error);
 
 $students = $conn->query("SELECT * FROM students");
