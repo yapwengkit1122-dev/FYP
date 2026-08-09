@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "root", "pwd123", "attendance_system");
+$conn = new mysqli("localhost", "", "", "attendance_system");
 if ($conn->connect_error) die("Connection failed: " . $conn->connect_error);
 
 $students = $conn->query("SELECT * FROM students");
