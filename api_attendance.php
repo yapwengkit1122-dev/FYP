@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-$conn = new mysqli('localhost', 'root', 'pwd123', 'attendance_system');
+$conn = new mysqli('localhost', '', '', 'attendance_system');
 
 if ($conn->connect_error) {
     echo json_encode([]);
