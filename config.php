@@ -2,8 +2,8 @@
 $host = "localhost";
 $port = "3306";
 $dbname = "attendance_system";
-$dbuser = "root";
-$dbpass = "pwd123";
+$dbuser = "YOUR_DB_USER";
+$dbpass = "YOUR_DB_PASSWORD";
 
 $conn = new mysqli($host, $dbuser, $dbpass, $dbname, $port);
 
